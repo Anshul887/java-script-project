@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="attendance-container">
+
+  <h1>Attendance Management</h1>
+
+  <input type="text" id="studentName" placeholder="Student Name">
+
+  <select id="status">
+    <option>Present</option>
+    <option>Absent</option>
+  </select>
+
+  <button onclick="markAttendance()">
+    Save Attendance
+  </button>
+
+  <ul id="attendanceList"></ul>
+
+</div>
+
+<script src="js/attendance.js"></script>
+
+</body>
+</html>
